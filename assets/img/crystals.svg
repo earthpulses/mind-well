@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 440 420">
+  <defs>
+    <g id="c">
+      <polygon points="0,-220 -36,-172 0,-160" fill="currentColor" fill-opacity=".55"/>
+      <polygon points="0,-220 36,-172 0,-160" fill="currentColor" fill-opacity=".85"/>
+      <polygon points="-36,-172 0,-160 0,10 -30,0" fill="currentColor" fill-opacity=".38"/>
+      <polygon points="36,-172 0,-160 0,10 30,0" fill="currentColor" fill-opacity=".66"/>
+      <path d="M-36 -172 0 -220 36 -172 30 0 0 10 -30 0z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+      <path d="M0 -160V10" stroke="#fff" stroke-opacity=".6" stroke-width="1.4"/>
+    </g>
+    <radialGradient id="halo" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#E9CF98" stop-opacity=".6"/><stop offset="1" stop-color="#E9CF98" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <ellipse cx="220" cy="210" rx="210" ry="200" fill="url(#halo)"/>
+  <ellipse cx="220" cy="392" rx="170" ry="12" fill="#2E2140" fill-opacity=".12"/>
+  <g transform="translate(112 384) rotate(-19) scale(.72)" color="#E9AEBE"><use href="#c" xlink:href="#c"/></g>
+  <g transform="translate(330 386) rotate(17) scale(.82)" color="#E3C677"><use href="#c" xlink:href="#c"/></g>
+  <g transform="translate(222 388) scale(1.12)" color="#9B7FD1"><use href="#c" xlink:href="#c"/></g>
+  <g fill="#B8924A"><path d="M60 110l4 11 11 4-11 4-4 11-4-11-11-4 11-4z"/><path d="M386 150l3 8 8 3-8 3-3 8-3-8-8-3 8-3z"/><path d="M350 52l3 7 7 3-7 3-3 7-3-7-7-3 7-3z"/></g>
+</svg>
